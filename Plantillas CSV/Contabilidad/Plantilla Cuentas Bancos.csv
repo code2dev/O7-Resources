@@ -1,0 +1,5 @@
+id,company_id/id,code,name,currency_mode,user_type/id,type,parent_id/id
+,base.main_company,110403,Bancomer,At Date,account.data_account_type_bank,Liquidity,__export__.account_account_10
+,base.main_company,110404,Banamex,At Date,account.data_account_type_bank,Liquidity,__export__.account_account_10
+,base.main_company,110405,Santander,At Date,account.data_account_type_bank,Liquidity,__export__.account_account_10
+,base.main_company,110406,Banorte,At Date,account.data_account_type_bank,Liquidity,__export__.account_account_10

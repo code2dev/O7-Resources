@@ -1,0 +1,27 @@
+id,company_id/id,code,name,currency_mode,user_type/id,type,parent_id/id
+__export__.account_account_1,base.main_company,0,Mi Empresa,At Date,account.data_account_type_view,View,
+__export__.account_account_2,base.main_company,1,Hoja de Balance,At Date,account.data_account_type_view,View,__export__.account_account_1
+__export__.account_account_3,base.main_company,10,Activos Fijos,At Date,account.account_type_asset_view1,View,__export__.account_account_2
+__export__.account_account_4,base.main_company,100000,Cuenta de Activos Fijos,At Date,account.account_type_asset_view1,Regular,__export__.account_account_3
+__export__.account_account_5,base.main_company,11,Activo Corriente Neto,At Date,account.account_type_asset_view1,View,__export__.account_account_2
+__export__.account_account_6,base.main_company,110,Activo Corriente,At Date,account.account_type_asset_view1,View,__export__.account_account_5
+__export__.account_account_7,base.main_company,110100,Compras de Almacen,At Date,account.data_account_type_asset,Regular,__export__.account_account_6
+__export__.account_account_8,base.main_company,110200,Clientes,At Date,account.data_account_type_receivable,Receivable,__export__.account_account_6
+__export__.account_account_9,base.main_company,110300,Impuesto Pagado,At Date,account.data_account_type_asset,Regular,__export__.account_account_6
+__export__.account_account_10,base.main_company,1104,Cuentas Financieras,At Date,account.account_type_asset_view1,View,__export__.account_account_6
+__export__.account_account_25,base.main_company,110401,Efectivo,At Date,account.data_account_type_cash,Liquidity,__export__.account_account_10
+__export__.account_account_26,base.main_company,110402,Banco,At Date,account.data_account_type_bank,Liquidity,__export__.account_account_10
+__export__.account_account_11,base.main_company,110600,Cuenta de Apertura de Ingresos,At Date,account.data_account_type_income,Regular,__export__.account_account_6
+__export__.account_account_12,base.main_company,12,Pasivo Corriente,At Date,account.account_type_liability_view1,View,__export__.account_account_2
+__export__.account_account_13,base.main_company,120000,Proveedores,At Date,account.data_account_type_payable,Payable,__export__.account_account_12
+__export__.account_account_14,base.main_company,121000,Impuesto Recibido,At Date,account.data_account_type_liability,Regular,__export__.account_account_12
+__export__.account_account_15,base.main_company,122000,Cuenta de Reserva y Perdidas/Ganancias,At Date,account.data_account_type_liability,Regular,__export__.account_account_12
+__export__.account_account_16,base.main_company,123000,Cuenta de Apertura de Gastos,At Date,account.data_account_type_expense,Regular,__export__.account_account_12
+__export__.account_account_17,base.main_company,2,Perdidas y Ganancias,At Date,account.data_account_type_view,View,__export__.account_account_1
+__export__.account_account_18,base.main_company,20,Ingresos,At Date,account.account_type_income_view1,View,__export__.account_account_17
+__export__.account_account_19,base.main_company,200000,Venta de Productos,At Date,account.data_account_type_income,Regular,__export__.account_account_18
+__export__.account_account_20,base.main_company,21,Costo de Ventas,At Date,account.account_type_income_view1,View,__export__.account_account_17
+__export__.account_account_21,base.main_company,210000,Costo de Venta de Productos,At Date,account.data_account_type_expense,Regular,__export__.account_account_20
+__export__.account_account_22,base.main_company,22,Gastos,At Date,account.account_type_expense_view1,View,__export__.account_account_17
+__export__.account_account_23,base.main_company,220000,Gastos Generales,At Date,account.data_account_type_expense,Regular,__export__.account_account_22
+__export__.account_account_24,base.main_company,221000,Gastos de Salarios,At Date,account.data_account_type_expense,Regular,__export__.account_account_22
